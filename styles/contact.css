@@ -15,7 +15,7 @@
 	background-color: #6ac86f; /* slightly desaturated lime green */
   	border: none;
   	color: white;
-  	padding: 1rem 2rem;
+  	padding: 0.5rem 1rem;
   	text-align: center;
 	text-transform: uppercase;
 	font-size: 1rem;
@@ -40,8 +40,6 @@
 	-webkit-transition-delay: 1s; /* chrome and safari */
 	-moz-transition-delay: 1s; /* firefox */
 	-o-transition-delay: 1s; /* opera */
-
-
 }
 
 
