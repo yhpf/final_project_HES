@@ -12,6 +12,27 @@ main section {
 	margin-top: 0rem;
 }
 
+a {
+	text-decoration: none;
+	color: #161828; /* Black Russian */	
+}
+
+a:hover {
+	text-decoration: none;
+	color: #6ac86f; /* slightly desaturated lime green */;
+}
+
+#welogo {
+	float: left;
+	max-width: 100%;
+  	height: auto;
+	padding-bottom: 0.5rem;
+}
+
+#about-we-yhpf {
+	clear: both;
+}
+
 /* ============================ */
 /* ABOUT WE */
 
@@ -95,9 +116,9 @@ img {
 
 /* Accordion used to open and close content */
 .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
+  background-color: #e3e3f4; /* light greyish blue */
+  color: #161828; /* Black Russian */	
+  cursor: default;
   padding: 18px;
   width: 100%;
   border: none;
@@ -109,7 +130,8 @@ img {
 
 /* bg color and hover over button */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #75788d; /* dark greyish blue */
+  color: #ffffff; /* white */
 }
 
 /* Open and close icons */
