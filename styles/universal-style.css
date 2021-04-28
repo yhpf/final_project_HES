@@ -185,6 +185,13 @@ h1 {
 	display: block;
 }
 
+/* style you are here */
+#iamhere {
+	color: #ff5c5c; /* light red*/	
+	text-decoration: none;
+	font-weight: 600;	/* regular */
+}
+
 /* ============================ */
 /* MAIN */
 
