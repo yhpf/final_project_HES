@@ -216,6 +216,16 @@ main section p {
 	display: block;
 }
 
+.newsbox {
+	background-color: #ff5c5c; /* light red*/	
+	border-radius: 0.5rem 0.5rem 0.5rem 0.5rem; /* top-left, top-right, bottom-right, bottom-left */
+	color: #ffffff; /* white */
+	font-weight: 600; /* semi-bold */
+	text-align: center;
+	margin-left: 0rem;
+	margin-right: 0rem;
+}
+
 /* ============================ */
 /* FOOTER */
 
