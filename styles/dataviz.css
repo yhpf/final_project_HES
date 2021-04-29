@@ -1,0 +1,19 @@
+.article-group {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+article {
+	background-color: grey;
+	width: 40%;
+}
+
+.fas {
+	flex: left;
+	display: inline-block;
+}
+
+.articletext {
+	display: inline-block;
+}
