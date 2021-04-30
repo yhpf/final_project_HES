@@ -5,15 +5,65 @@
 }
 
 article {
-	background-color: grey;
+	background-color: #e3e3f4; /* light greyish blue */
 	width: 40%;
+	padding: 1rem;
+	margin-bottom: 1rem;
 }
 
-.fas {
-	flex: left;
-	display: inline-block;
+h4 {
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	margin-left: 4.5rem;
 }
 
-.articletext {
-	display: inline-block;
+div .icon-text {
+	display: flex;
+	align-items: center;
+}
+
+#child .fas {
+	margin: 1rem;
+}
+
+#child .articletext {
+	margin-left: 1rem;
+} 
+
+#graduation .fas {
+	margin: 0.7rem;
+}
+
+#graduation .articletext {
+	margin-left: 0.7rem;
+} 
+
+#briefcase .fas {
+	margin: 0.8rem;
+}
+
+#briefcase .articletext {
+	margin-left: 0.9rem;
+} 
+
+#book .fas {
+	margin: 0.9rem;
+}
+
+#book .articletext {
+	margin-left: 0.9rem;
+} 
+
+article a {
+	margin-left: 4.5rem;
+}
+
+@media screen and (max-width: 865px) {
+	.article-group {
+		display: block;
+	}
+
+	article {
+		width: 92%;
+	}
 }
