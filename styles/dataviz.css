@@ -1,3 +1,22 @@
+/* CSS for Data viz pages */
+
+.source {
+	font-size: 0.5rem;
+}
+
+a {
+	color: #161828; /* Black Russian */	
+}
+
+a:hover {
+	color: #6ac86f; /* slightly desaturated lime green */
+	text-decoration: none;
+}
+
+
+/* ============================ */
+/* Dataviz-home */
+
 .article-group {
 	display:flex;
 	flex-wrap: wrap;
@@ -17,7 +36,7 @@ h4 {
 	margin-left: 4.5rem;
 }
 
-div .icon-text {
+div.icon-text {
 	display: flex;
 	align-items: center;
 }
@@ -58,6 +77,27 @@ article a {
 	margin-left: 4.5rem;
 }
 
+/* ============================ */
+/* Dataviz1 - High School */
+div.applicants, div.admitted {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+div.piechart {
+	width: 40%;
+}
+
+h4.chart-title {
+	text-align: center;
+	margin-left: 0rem;
+}
+
+/* ============================ */
+/* RESPONSIVE */
+
+/* Data viz - home */
 @media screen and (max-width: 865px) {
 	.article-group {
 		display: block;
