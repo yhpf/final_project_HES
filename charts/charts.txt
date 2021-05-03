@@ -3,3 +3,4 @@ chart1 - Applicants to High School - Natural Science program, per gender (school
 chart2 - Applicants to High School - Technology program, per gender (school year 2020/21)
 chart3 - Admitted to High School - Natural Science program, per gender (school year 2020/21)
 chart4 - Admitted to High School - Technology program, per gender (school year 2020/21)
+chart5 - Graduates with Master of Science in Engineering degree, per gender (1978-2020)
