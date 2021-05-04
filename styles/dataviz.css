@@ -114,6 +114,17 @@ h4.chart-title-l {
 }
 
 /* ============================ */
+/* Data viz4 - Labor market */
+
+div.now-future {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+
+
+/* ============================ */
 /* RESPONSIVE */
 
 @media screen and (max-width: 865px) {
