@@ -1,9 +1,5 @@
 /* CSS for Data viz pages */
 
-.source {
-	font-size: 0.5rem;
-}
-
 a {
 	color: #161828; /* Black Russian */	
 }
@@ -94,20 +90,17 @@ h4.chart-title-c {
 	margin-left: 0rem;
 }
 
+.source-c {
+	font-size: 0.5rem;
+	text-align: center;
+}
+
 /* ============================ */
 /* Dataviz2 - College and University */
-div.applicants-admitted {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
 
-div.barchart {
-	width: 40%;
-}
 
-div.linechart {
-	width: 80%;
+div.barchart, div.linechart  {
+	width: 70%;
 }
 
 h4.chart-title-l {
@@ -115,11 +108,16 @@ h4.chart-title-l {
 	margin-left: 0rem;
 }
 
+.source-l {
+	font-size: 0.5rem;
+	text-align: left;
+}
+
 /* ============================ */
 /* RESPONSIVE */
 
-/* Data viz - home */
 @media screen and (max-width: 865px) {
+	/* Data viz - home */
 	.article-group {
 		display: block;
 	}
@@ -127,4 +125,17 @@ h4.chart-title-l {
 	article {
 		width: 92%;
 	}
+
+	/* Data viz1 */
+	div.applicants, div.admitted {
+		display: block;
+
+	}
+
+	div.piechart {
+	width: 100%;
+}
+
+	/* Data viz2 */
+
 }
