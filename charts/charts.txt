@@ -7,3 +7,8 @@ chart5 - Graduates with Master of Science in Engineering degree, per gender (197
 chart6 - Applicants (first choice) to STEM programs, per gender (autumn 2020)
 chart7 - Admitted to STEM programs, per gender (autumn 2020)
 chart8 - Professions related to a Master of Science in Engineering (Civilingenjörsyrken), per gender (2014-2019)
+chart9 - Professions related to a Master of Science in Engineering (Civilingenjörsyrken),
+men per age groups (2014-2019)
+chart10 - Professions related to a Master of Science in Engineering (Civilingenjörsyrken),
+women per age groups (2014-2019)
+chart11 - Average monthly salery for professions related to a Master of Science in Engineering (Civilingenjörsyrken),  per gener (2014-2019)
