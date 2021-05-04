@@ -129,13 +129,13 @@ h4.chart-title-l {
 	/* Data viz1 */
 	div.applicants, div.admitted {
 		display: block;
-
 	}
 
 	div.piechart {
 	width: 100%;
-}
+	}
 
 	/* Data viz2 */
-
-}
+	div.barchart, div.linechart  {
+	width: 100%;
+	}
