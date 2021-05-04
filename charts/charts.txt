@@ -6,3 +6,4 @@ chart4 - Admitted to High School - Technology program, per gender (school year 2
 chart5 - Graduates with Master of Science in Engineering degree, per gender (1978-2020)
 chart6 - Applicants (first choice) to STEM programs, per gender (autumn 2020)
 chart7 - Admitted to STEM programs, per gender (autumn 2020)
+chart8 - Professions related to a Master of Science in Engineering (Civilingenjörsyrken), per gender (2014-2019)
