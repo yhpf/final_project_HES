@@ -118,11 +118,16 @@ h4.chart-title-l {
 
 div.now-future {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
 }
 
+div.skills-now {
+	margin-top: 3.5rem;
+}
 
+div.skills-now  h4, div.skills-now p, div.skills-now ul {
+	margin-left: 0rem;
+	margin-right: 2rem;
+}
 
 /* ============================ */
 /* RESPONSIVE */
@@ -150,3 +155,18 @@ div.now-future {
 	div.barchart, div.linechart  {
 	width: 100%;
 	}
+
+	/* Data viz4 */
+	div.now-future {
+	display: block;
+	}
+
+	div.skills-now  h4, div.skills-now p, div.skills-now ul {
+		margin-left: 0rem;
+		margin-right: 0rem;
+	}
+
+	div.now-future img {
+		width: 100%;
+	}
+
