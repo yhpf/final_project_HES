@@ -129,6 +129,37 @@ div.skills-now  h4, div.skills-now p, div.skills-now ul {
 	margin-right: 2rem;
 }
 
+.button {
+	background-color: #6ac86f; /* slightly desaturated lime green */
+  	border: none;
+  	color: white;
+  	padding: 0.5rem 1rem;
+  	text-align: center;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 400;	/* regular */
+	border-radius: 1.5rem;
+	display: inline-block;
+	margin: auto;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	transition: 0s background-color;
+}
+
+.button a {
+	text-decoration: none;
+	color: #ffffff; /* white */
+}
+
+.button:hover {
+	background-color: #6ac86f; /* slightly desaturated lime green */
+	opacity: 0.9;
+	transition-delay: 1s; /* delays the hover opacity effect */
+	-webkit-transition-delay: 1s; /* chrome and safari */
+	-moz-transition-delay: 1s; /* firefox */
+	-o-transition-delay: 1s; /* opera */
+}
+
 /* ============================ */
 /* RESPONSIVE */
 
