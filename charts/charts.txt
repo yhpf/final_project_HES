@@ -11,4 +11,5 @@ chart9 - Professions related to a Master of Science in Engineering (Civilingenj�
 men per age groups (2014-2019)
 chart10 - Professions related to a Master of Science in Engineering (Civilingenjörsyrken),
 women per age groups (2014-2019)
-chart11 - Average monthly salery for professions related to a Master of Science in Engineering (Civilingenjörsyrken),  per gener (2014-2019)
+chart11 - Average monthly salery for professions related to a Master of Science in Engineering (Civilingenjörsyrken),  per gener (2014-2019)\
+char12 - Women on the Board and in Executive management team (2020)
