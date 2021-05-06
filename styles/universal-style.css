@@ -56,8 +56,10 @@ header {
 	background-color: #ffffff; /* white */
 
 	position: fixed; /* Set the navbar to fixed position */
-  	top: 0; /* Position the navbar at the top of the page */
-  	width: 100%; /* Full width */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+
+	z-index: 1; /* make sure the image do not scroll over header */
 
 	position: sticky;
 	padding-bottom: 0.7rem;
@@ -102,7 +104,6 @@ h1 {
 .topnav {
 	background-color: #ffffff; /* white */
 	overflow: hidden;
-
 	padding-top: 2rem;
 }
 
@@ -216,14 +217,89 @@ main section p {
 	display: block;
 }
 
-.newsbox {
+main section div.start-img-container {
+	position: relative;
+	text-align: center;
+}
+
+img#start-img {
+	width: 100%;
+	z-index: -1; /* make sure the image do not scroll over header */
+}
+
+.centered-text {
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	transform: translate(-50%, -50%);
+}
+
+h2.welcome-text {
+	color: #ffffff; /* white */
+
+	transform: rotate(270deg);
+
+	padding: 1rem;
+}
+
+.newsbox2 {
 	background-color: #ff5c5c; /* light red*/	
-	border-radius: 0.5rem 0.5rem 0.5rem 0.5rem; /* top-left, top-right, bottom-right, bottom-left */
+	border-radius: 0em;
 	color: #ffffff; /* white */
 	font-weight: 600; /* semi-bold */
 	text-align: center;
-	margin-left: 0rem;
-	margin-right: 0rem;
+	margin: 0rem 0rem 1rem 0rem; /* top right bottom left */
+}
+
+
+div.main-content {
+	
+}
+
+div.main-content p {
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+div.main-content a {
+	color: #161828; /* Black Russian */	
+	text-decoration: none;
+	font-weight: 600; /* semi-bold */
+}
+
+div.main-content a:hover {
+	color: #6ac86f; /* slightly desaturated lime green */
+	text-decoration: none;
+	font-weight: 600; /* semi-bold */
+}
+
+div.start-contact {
+	background-color: #ffffff; /* white */
+	font-size: 2rem;
+	font-weight: 600; /* semi-bold */
+	position: absolute;
+	top: 50%;
+	left: 30.5%;
+	transform: translate(-50%, -50%);
+
+	padding: 3rem;
+}
+
+main section img.infographics {
+	width: 35%;
+	max-width: 390px;
+	float: right;
+
+	margin-left: 1rem;
+}
+
+main section div.contact-img-container {
+	position: relative;
+	text-align: center;
+}
+
+img#contact-img {
+	width: 61%;
 }
 
 /* ============================ */
@@ -354,4 +430,58 @@ footer p {
 	}
 }
 
+/* responsive vertical text on image */
+@media screen and (max-width: 865px) {
+	.centered-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
+	h2.welcome-text {
+		color: #ffffff; /* white */
+		background-color: rgba(227, 227, 244, 0.5); /* #e3e3f4 light greyish blue, with opacity */
+		border-radius: 0.5rem 0.5rem 0.5rem 0.5rem; /* top-left, top-right, bottom-right, bottom-left */
+
+		transform: rotate(0deg);
+
+		padding: 1rem;
+	}
+}
+
+/* responsive class main-content */
+@media screen and (max-width: 865px) {
+	div.main-content {
+		display: block;
+	}
+
+	div.main-content p {
+		width: 100%;
+
+		margin-left: 0rem;
+		margin-right: 3rem;
+	}
+
+	main section img.infographics {
+		width: 100%;
+		float: none;
+
+		margin-bottom: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem: 
+	}
+
+	div.start-contact {
+		background-color: none;
+		width: 100%;
+
+		position: relative;
+		padding: 1rem;
+		margin-left: 20%;
+	}
+
+	img#contact-img {
+		width: 100%;
+	}
+}
