@@ -23,6 +23,10 @@ a:hover {
 	margin-right: 0rem;
 }
 
+.newsbox p {
+	margin: 0rem;
+}
+
 .article-group {
 	display:flex;
 	flex-wrap: wrap;
@@ -108,11 +112,6 @@ h4.chart-title-c {
 /* ============================ */
 /* Dataviz2 - College and University */
 
-
-div.barchart, div.linechart  {
-	width: 70%;
-}
-
 h4.chart-title-l {
 	text-align: left;
 	margin-left: 0rem;
@@ -132,6 +131,16 @@ div.now-future {
 
 div.skills-now {
 	margin-top: 3.5rem;
+	width: 65%;
+}
+
+div.infog {
+  	width: 35%;
+}
+
+div.now-future img {
+	max-width: 100%;
+  	height: auto;
 }
 
 div.skills-now  h4, div.skills-now p, div.skills-now ul {
@@ -188,12 +197,19 @@ div.skills-now  h4, div.skills-now p, div.skills-now ul {
 		display: block;
 	}
 
+	div.applicants img, div.admitted img{
+		margin-left: auto;
+  		margin-right: auto;
+
+  		width: 99%
+	}
+
 	div.piechart {
 	width: 100%;
 	}
 
-	/* Data viz2 */
-	div.barchart, div.linechart  {
+	/* Data viz2 and Data viz3*/
+	div.barchart img, div.linechart img {
 	width: 100%;
 	}
 
@@ -207,7 +223,11 @@ div.skills-now  h4, div.skills-now p, div.skills-now ul {
 		margin-right: 0rem;
 	}
 
-	div.now-future img {
+	div.skills-now {
 		width: 100%;
 	}
 
+	div.infog {
+  		width: 100%;
+	}
+}

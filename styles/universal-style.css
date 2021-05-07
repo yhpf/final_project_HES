@@ -108,7 +108,7 @@ h1 {
 }
 
 /* style links in nav bar */
-.topnav a {
+.topnav .dropbtn {
 	float: left;
 	display: block;
 	color: #161828; /* Black Russian */	
@@ -169,6 +169,7 @@ h1 {
 	text-decoration: none;
 	display: block;
 	text-align: left;
+	font-size: 0.8rem;
 }
 /* style when hovering over in top nav and dropdown botton */
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -251,6 +252,10 @@ h2.welcome-text {
 	margin: 0rem 0rem 1rem 0rem; /* top right bottom left */
 }
 
+.newsbox2 h3 {
+	margin: 0rem;
+}
+
 
 div.main-content {
 	
@@ -315,7 +320,7 @@ img#contact-img {
 }
 
 .footer {
-	background-color: #161828; /* Black Russian */	#ffffff; /* white */
+	background-color: #161828; /* Black Russian */	
 	height: 7rem;
 	text-align: center;
 	color: #ffffff; /* white */
@@ -379,7 +384,7 @@ footer p {
 
 /* screen <600 px wide, hide all links and show hamburger menu */
 @media screen and (max-width: 865px) {
-	.topnav a:not(:first-child), .dropdown .dropbtn {
+	i.fa-caret-down, .dropdown .dropbtn {
 		display: none;
 	}
 
@@ -394,6 +399,12 @@ footer p {
 	.topnav a.icon {
 		float: none;
 		display: block;
+		color: #161828; /* Black Russian */	
+		text-align: center;
+	}
+
+	.topnav a.icon:hover {
+		color: #6ac86f; /* slightly desaturated lime green */
 	}
 }
 
@@ -411,12 +422,14 @@ footer p {
 		display: block;
 		text-align: left;
 	}
-
+		
 	.topnav.responsive a.icon {
 		position: absolute;
 		display: block;
-		right: 0rem; /* needed so the hamburger manu wont disapear on click */
-		top: 0rem; /* needed so the hamburger manu wont disapear on click */
+		right: 0rem; /* needed so the hamburger menu wont disapear on click */
+		top: 0rem; /* needed so the hamburger menu wont disapear on click */
+
+		margin-right: 47%;
 	}
 
 	.topnav.responsive .dropdown {
@@ -427,10 +440,23 @@ footer p {
 		position: relative;
 	}
 
+	.topnav.responsive .dropdown-content a {
+		text-align: center;
+	}
+
+	.topnav.responsive .dropdown-content a:hover {
+		background-color: #e3e3f4; /* light greyish blue */
+	}
+
+	.topnav.responsive i.fa-caret-down {
+		display: block;
+		text-align: center;
+	}
+
 	.topnav.responsive .dropdown .dropbtn {
 		display: block;
 		width: 100%;
-		text-align: left;
+		text-align: center;
 	}
 }
 
