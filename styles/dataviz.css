@@ -47,12 +47,12 @@ div.icon-text {
 	align-items: center;
 }
 
-#child .fas {
-	margin: 1rem;
+#female .fas {
+	margin: 1.2rem;
 }
 
-#child .articletext {
-	margin-left: 1rem;
+#female .articletext {
+	margin-left: 1.2rem;
 } 
 
 #graduation .fas {
@@ -71,12 +71,12 @@ div.icon-text {
 	margin-left: 0.9rem;
 } 
 
-#book .fas {
-	margin: 0.9rem;
+#venus .fas {
+	margin: 1.1rem;
 }
 
-#book .articletext {
-	margin-left: 0.9rem;
+#venus .articletext {
+	margin-left: 1.1rem;
 } 
 
 article a {
