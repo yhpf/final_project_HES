@@ -287,7 +287,7 @@ div.start-contact {
 
 main section img.infographics {
 	width: 35%;
-	max-width: 390px;
+	max-width: 24rem;
 	float: right;
 
 	margin-left: 1rem;
@@ -308,6 +308,10 @@ img#contact-img {
 /* Helps with the sticky footer*/
 .push {
 	height: 7rem; 
+	background-color: #ffffff; /* white */
+
+	margin-right: 1rem;
+	margin-left: 1rem;
 }
 
 .footer {
