@@ -148,6 +148,11 @@ div.skills-now  h4, div.skills-now p, div.skills-now ul {
 	margin-right: 2rem;
 }
 
+div.skills-now ul {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.3;
+}
+
 .button {
 	background-color: #6ac86f; /* slightly desaturated lime green */
   	border: none;

@@ -1,32 +1,5 @@
 /* CSS for index.html */
 
-/* WE Graphic Profile 
-=================================
-Primary colors 
-#ffffff (white)
-#161828 (Black Russian/very dark (mostly black) blue) closes websafe color #000033
-#6ac86f (slightly desaturated lime green) closes websafe color #66cc66
-
-Sedondary colors
-#e3e3f4 (Lavender/light greyish blue) closes websafe color #ccccff
-#75788d (Storm Grey/dark greyish blue) closes websafe color #666699
-#474a5e (very dark grayish blue) closes websafe color #333366
-#000000 (black)
-
-Supporting colors
-#07a40f (dark lime green) closes websafe color #009900
-#ff5c5c (Bittersweer/light red) closes websafe color #ff6666
-
-www.colorhexa.com
-It's only in very rare cases we have to use the web safe colors.
-
-FONTS
-Headlines: Montserrat Bold (700)
-Body text: Montserat Regular (400)
-Buttons etc: Montserat SemiBold; (600) (this is not used for button and links in reality)
-=================================
-*/
-
 html {
 	height: 100%;
 	margin: 0rem;
@@ -40,6 +13,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 	margin: 0rem;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.5;
 }
 
 .wrapper {
