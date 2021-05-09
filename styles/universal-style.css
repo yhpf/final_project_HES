@@ -381,7 +381,7 @@ footer p {
 /* ============================ */
 /* RESPONSIVENESS */
 
-/* screen <600 px wide, hide all links and show hamburger menu */
+/* screen <865px wide, hide all links and show hamburger menu */
 @media screen and (max-width: 865px) {
 	i.fa-caret-down, .dropdown .dropbtn {
 		display: none;
