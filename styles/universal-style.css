@@ -149,6 +149,7 @@ h1 {
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0rem;
+	margin-left: 1rem;
 }
 
 /* style the dropdown content (hidden by default) */
