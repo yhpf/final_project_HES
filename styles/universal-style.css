@@ -38,8 +38,6 @@ html {
 body {
 	background-color: #161828; /* Black Russian */	
 	font-family: 'Montserrat', sans-serif;
-	font-display: optional; /* trying to prevent jumping font on pageload, not helping */
-
 	height: 100%;
 	margin: 0rem;
 }
@@ -499,11 +497,10 @@ footer p {
 
 		margin-bottom: 1rem;
 		margin-left: 0rem;
-		margin-right: 0rem: 
+		margin-right: 0rem; 
 	}
 
 	div.start-contact {
-		background-color: none;
 		width: 100%;
 
 		position: relative;

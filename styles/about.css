@@ -102,13 +102,10 @@ img {
 	color:#ffffff;
 	opacity: 0.9;
 	transition-delay: 1s; /* delays the hover opacity effect */
-	-webkit-transition-delay: 1s; /* chrome and safari */
-	-moz-transition-delay: 1s; /* firefox */
-	-o-transition-delay: 1s; /* opera */
 }
 
 .about_yhpf p {
-	bottom-margin: 0rem;
+	margin-bottom: 0rem;
 }
 
 /* ============================ */
