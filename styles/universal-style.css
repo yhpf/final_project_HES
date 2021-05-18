@@ -127,7 +127,7 @@ h1 {
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0rem;
-	margin-left: 1rem;
+	margin-left: 0.5rem;
 }
 
 /* style the dropdown content (hidden by default) */
@@ -367,6 +367,7 @@ footer p {
 
 	#logo_header {
 		float: none;
+		text-align: center,
 	}
 
 	.topnav {
@@ -411,6 +412,7 @@ footer p {
 
 	.topnav.responsive .dropdown {
 		float: none;
+		text-align: center;
 	}
 
 	.topnav.responsive .dropdown-content {
@@ -434,6 +436,8 @@ footer p {
 		display: block;
 		width: 100%;
 		text-align: center;
+		margin-left: 0rem;
+		padding-left: 0rem;
 	}
 }
 
